@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drawing</title>
+    <link href="art.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onselectstart="return false" oncut="return false" oncopy="return false" onpaste="return false"
+    ondrag="return false" ondrop="return false">
+    <header>
+        <a herf="index.html"><img src="bulb.png" alt="logo" align="left" height="150" width="150"></a>
+        <ul>
+            <h1>Drawing</h1><br><br>
+        </ul>
+    </header> <br><br><br><br><br><br><br>
+    <button id="caricature" onclick="caricature()" class="button" type="button"
+        data-hover="Caricature drawings are images that depict their subjects in oversimplified or overdramatized manners."
+        data-active="I'M ACTIVE"><span>Caricature Drawing</span></button>
+    <button id="cartoon" onclick="cartoon()" class="button" type="button"
+        data-hover="Cartoon drawings typically depict a more comedic or whimsical view of the world. Similar to caricatures, they may use overdramatized shapes and colors to show emotion or tone through images."
+        data-active="I'M ACTIVE"><span>Cartoon Drawing</span></button>
+        <button id="figure" onclick="figure()" class="button" type="button"
+        data-hover="Artists create figure drawings, also known as still-life drawings, from making observations in the physical world."
+        data-active="I'M ACTIVE"><span>Figure Drawing</span></button>
+        <button id="gesture" onclick="gesture()" class="button" type="button"
+        data-hover="Like figure drawing, gesture drawing uses real-life subjects as inspiration. However, gesture drawing focuses on movement and hopes to capture action in addition to form and pose."
+        data-active="I'M ACTIVE"><span>Gesture Drawing</span></button>  
+        <button id="line" onclick="line()" class="button" type="button"
+        data-hover="Line drawing focuses on the use of straight lines and contours without shading. In most line drawings, the artist creates an entire image without picking their instrument up from the surface."
+        data-active="I'M ACTIVE"><span>Line Drawing</span></button>
+        <button id="line" onclick="line()" class="button" type="button"
+        data-hover="Artists use perspective drawing, also known as 3D or anamorphic drawing, to create three-dimensional images in a two-dimensional space, such as on paper."
+        data-active="I'M ACTIVE"><span>Persective Drawing</span></button>
+        <button id="photo" onclick="photo()" class="button" type="button"
+        data-hover="Photorealism, also called hyperrealism, is the concept of drawing something that looks so lifelike it could be mistaken for a photograph. "
+        data-active="I'M ACTIVE"><span>Photorealism Drawing</span></button>
+        <button id="point" onclick="point()" class="button" type="button"
+        data-hover="Pointillism is an artistic technique more often used in painting but can also apply to drawings. It uses a stippling method to create many tiny dots that create a realistic image with light and shadows."
+        data-active="I'M ACTIVE"><span>Pointillism Drawing</span></button>
+        <button id="sci" onclick="sci()" class="button" type="button"
+        data-hover="Artists create scientific illustrations, sometimes known as diagrams, to communicate complex concepts in an easy-to-comprehend way."
+        data-active="I'M ACTIVE"><span>Scientific Illustrations</span></button>
+        <button id="scr" onclick="scr()" class="button" type="button"
+        data-hover="Scratchboard drawing, also known as scraperboard drawing, uses a cardboard sheet coated with a thin layer of clay and India ink."
+        data-active="I'M ACTIVE"><span>Scratchboard Drawing</span></button>
+        <button id="sil" onclick="sil()" class="button" type="button"
+        data-hover="Silhouettes are images or designs that show the outline of an object in a single hue or tone. Artists usually create them in black and white, with one color as the background and the other filling the silhouette."
+        data-active="I'M ACTIVE"><span>Silhouette drawing</span></button>
+        <button id="sketch" onclick="ske()" class="button" type="button"
+        data-hover="You can usually tell a sketch drawing by its less-refined lines and edges. Artists often create sketches with simple, quick marks and may ignore adding certain details that aren't important to the piece. "
+        data-active="I'M ACTIVE"><span>Sketch Drawing</span></button>
+    <br><br><br><br>
+    <button onclick="Back()" class="back" type="button" data-hover="Takes you back to the main page of Art"
+        data-active="I'M ACTIVE"><span>Back</span></button>
+
+
+    <script src="draw.js"></script>
+</body>
+
+</html>
